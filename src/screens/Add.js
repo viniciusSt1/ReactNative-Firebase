@@ -47,7 +47,7 @@ export default ({ navigation }) => {
                     )
                 )
                 
-                navigation.navigate('home',att=true)
+                navigation.goBack()
             }} />
         </View>
         

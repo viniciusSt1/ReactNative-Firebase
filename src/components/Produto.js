@@ -32,7 +32,7 @@ const Produto = ({ navigation, p }) => {
                                         )
                                     )
 
-                                    navigation.navigate('home',att=true)
+                                    navigation.goBack()
                                 }
                             },
                             {

@@ -41,7 +41,7 @@ export default ({route, navigation}) => {
                     )
                 )
                
-                navigation.navigate('home',att=true)
+                navigation.goBack()
             }}></Button>
         </View>
         

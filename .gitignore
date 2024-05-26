@@ -13,6 +13,8 @@ web-build/
 
 # firebase/supabase
 .env
+eas.json
+google-services.json
 
 ios
 android
